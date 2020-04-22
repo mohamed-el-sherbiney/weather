@@ -3,7 +3,8 @@ const app = express();
 const request = require("request");
 
 //lets setup our server
-app.listen(3000)
+var port = process.env.PORT
+app.listen(port)
 
 //chain html
 app.use(express.static(__dirname + "/staticAssets"))
