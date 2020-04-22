@@ -21,3 +21,9 @@ form{
   height: 800px;
   background-size: cover;
 }
+
+#forecast{
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
